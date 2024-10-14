@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .imgg{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+
+  .imgg img{
+    width: 700px;
+    height: 500px;
+  }
+
+  .words{
+    position: absolute;
+    margin-top: -65%;
+    margin-left: 20%;
+    color: #000000;
+    font-size: 30px;
+  }
+
+  .words h1{
+    margin-bottom: 7%;
+  }
+
+  .words h2{
+    text-align: center;
+    margin-bottom: 9%;
+  }
+
+  .words button{
+    position: relative;
+    left: 15%;
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+    width: 300px;
+    font-weight: 800;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+
+  @media only screen and (min-width:350px) and (max-width: 440px) {
+    body{
+      padding: 10%;
+    }
+    .imgg{
+      margin-left: 5%;
+    }
+  }
